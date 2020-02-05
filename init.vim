@@ -112,9 +112,6 @@ Plug 'dracula/vim', { 'as': 'dracula' }
 " NerdTree
 Plug 'preservim/nerdtree'
 
-" YouCompleteMe
-" Plug 'Valloric/YouCompleteMe'
-
 " COC
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
@@ -122,6 +119,9 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install_sync() }, 'for' :['markdown', 'vim-plug'] }
 Plug 'dhruvasagar/vim-table-mode', { 'on': 'TableModeToggle' }
 Plug 'vimwiki/vimwiki'
+
+" Startify
+Plug 'mhinz/vim-startify'
 
 call plug#end()
 
